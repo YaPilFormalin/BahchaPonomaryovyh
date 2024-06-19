@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бахча Пономарёвых</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Бахча Пономарёвых</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#products">Продукция</a></li>
+                <li><a href="#contact">Контакты</a></li>
+                <li><a href="#form">Оставить заявку</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>О нас</h2>
+        <p>Бахча Пономарёвых - это семейное предприятие, занимающееся выращиванием и продажей свежих фруктов и овощей.</p>
+    </section>
+    <section id="products">
+        <h2>Продукция</h2>
+        <div class="product-list">
+            <div class="product-item">
+                <h3>Арбузы</h3>
+                <p>Самые сладкие арбузы нашего региона.</p>
+            </div>
+            <div class="product-item">
+                <h3>Дыни</h3>
+                <p>Вкуснейшие дыни, выращенные с любовью.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Контакты</h2>
+        <p>Свяжитесь с нами по телефону: <a href="tel:+7 918 758 04 80">+7 918 758 04 80</a></p>
+        <p>или по электронной почте: <a href="mailto:bahcha_ponomarevo@mail.ru">bahcha_ponomarevo@mail.ru</a></p>
+    </section>
+    <section id="form">
+        <h2>Оставить заявку</h2>
+        <form id="request-form">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+        <p id="form-response"></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Бахча Пономарёвых. Все права защищены.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
